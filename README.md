@@ -1,2 +1,2 @@
-# React-projects
+# react-projects
 Simple React js Tutorials
