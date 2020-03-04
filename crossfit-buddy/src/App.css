@@ -1,38 +1,167 @@
 .App {
+background: linear-gradient(to bottom right, black 0%, white 100%, black);;
+}
+#macroCalculator{
+  background-color: darkcyan;
+}
+
+body {
+  background-color: ghostwhite
+}
+h2{
+  color: black;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: whitesmoke;
+  text-align:center ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#activityLevel, #weight {
+  width: 150px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#protein, #carb, #fat,#totalCal {
+  width: 40px;
+  padding-left: 40px;
+}
+#totalCal{
+  margin-left: 2px;
+}
+#protein{
+  margin-left: 14px;
+}
+#carb{
+  margin-left: 19px;
+}
+#fat{
+  margin-left: 30px;
+}
+
+#totalCal1{
+  margin-left: 2px;
+  padding-left: 40px;
+  width: 40px;
+}
+#protein1{
+  margin-left: 14px;
+  padding-left: 40px;
+  width: 40px;
+}
+#carb1{
+  margin-left: 23px;
+  padding-left: 40px;
+  width: 40px;
+}
+#fat1{
+  margin-left: 34px;
+  padding-left: 40px;
+  width: 40px;
+}
+
+#totalCal2{
+  margin-left: 2px;
+  padding-left: 40px;
+  width: 40px;
+}
+#protein2{
+  margin-left: 14px;
+  padding-left: 40px;
+  width: 40px;
+}
+#carb2{
+  margin-left: 23px;
+  padding-left: 40px;
+  width: 40px;
+}
+#fat2{
+  margin-left: 34px;
+  padding-left: 40px;
+  width: 40px;
+}
+
+
+
+
+.header-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(/images/foodBanner.jpg);
+  background-size: cover;
+  image-rendering: optimizeQuality;
+  
+}
+
+.card {
+  width: 100%;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+}
+.thumbsup{
+  width:20%;
+  padding-left: 0;
+  border-radius: 5px;
+
 }
 
-.App-link {
-  color: #61dafb;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: flex;
+  
+}
+/* .button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+} */
+
+.containerr{
+  justify-content: center;
+  width: 30%;
+
+  border: black;
+  text-align: center;
+  display: inline-block;
+  margin: 5px; /* space between buttons */
+  background:darkcyan; /* background color */
+  color:ghostwhite; /* text color */
+  font-size: 1.5em;
+  font-family: ‘Georgia’, serif;
+  font-style: italic;
+  border-radius: 50px; /* rounded corners */
+  padding: 8px 16px; /* space around text */
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+ 
+}
+.form-control1{
+  margin-left: 30px;
+}
+.form-control2{
+  margin-left: 27px;
+}
+.form-control3{
+  margin-left: 26px;
+}
+.form-control4{
+  margin-left: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+/* Add some padding inside the card container */
+
