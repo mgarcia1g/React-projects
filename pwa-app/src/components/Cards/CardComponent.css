@@ -1,0 +1,7 @@
+.Kelsie-main {
+  width: 100%;
+  height: 550px;
+  background-image: url(/images/kelsie-main.jpg);
+  background-size: cover;
+  image-rendering: optimizeQuality;
+}

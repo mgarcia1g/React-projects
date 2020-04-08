@@ -4,9 +4,9 @@ class Banner extends Component {
     render() {
 
         return (
-            <main>
+           
             <div class="header-img"></div>
-        </main>
+        
         );
     }
 
